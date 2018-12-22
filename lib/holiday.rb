@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         str << "#{word.capitalize!}: "
       end
       supplies.each do |supply| 
-        str << supply
+        str << "#{supply},
       end
       puts str
     end
