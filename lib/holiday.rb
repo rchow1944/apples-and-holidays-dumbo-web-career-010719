@@ -68,6 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         str << word.capitalize!
       end
     end
+    puts str
   end
 end
 
