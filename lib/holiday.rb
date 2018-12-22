@@ -69,7 +69,6 @@ def all_supplies_in_holidays(holiday_hash)
       end
       supplies.each do |supply| 
         str << "#{supply}, "
-        
       end
       puts str
     end
